@@ -15,7 +15,8 @@ body {
   box-shadow: 0 5px 15px #00000019;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: center;
 }
 
@@ -55,7 +56,8 @@ button {
   cursor: pointer;
 }
 
-form input, form button {
+form input, 
+form button {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
