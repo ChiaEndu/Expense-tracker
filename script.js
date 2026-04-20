@@ -58,9 +58,9 @@ function updateUI() {
       .reduce((acc, val) => acc + val, 0) * -1
   ).toFixed(2);
 
-  balance.textContent = `$${total}`;
-  income.textContent = `+$${inc}`;
-  expense.textContent = `-$${exp}`;
+  balance.textContent = `XAF ${total}`;
+  income.textContent = `XAF ${inc}`;
+  expense.textContent = `XAF ${exp}`;
 }
 
 function addToDOM(transaction) {
@@ -71,7 +71,7 @@ function addToDOM(transaction) {
   li.innerHTML = `
     ${transaction.text} 
     <span>${transaction.date}</span>
-    <span>${transaction.amount > 0 ? "+" : "-"}$${Math.abs(transaction.amount)}</span>
+    <span>${transaction.amount > 0 ? "+" : "-"}XAF ${Math.abs(transaction.amount)}</span>
     <button class="delete-btn" onclick="deleteTransaction(${transaction.id})">x</button>
   `;
 
