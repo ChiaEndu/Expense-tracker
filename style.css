@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #bfdefd;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px #00000019;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.balance h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.money {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+form input,
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: #fafafa;
+  margin: 10px 0;
+  padding: 10px;
+  border-right: 5px solid;
+}
+
+li.plus {
+  border-color: green;
+}
+
+li.minus {
+  border-color: red;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
