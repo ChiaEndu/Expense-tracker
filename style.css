@@ -12,7 +12,7 @@ body {
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px #00000019;
 }
 
 h1, h3 {
@@ -49,16 +49,16 @@ form {
   gap: 10px;
 }
 
-form input, form button {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
 button {
   background: black;
   color: white;
   cursor: pointer;
+}
+
+form input, form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 ul {

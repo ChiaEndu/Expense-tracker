@@ -34,7 +34,6 @@ function addTransaction (e) {
   date.value = ''
 }
 
-
 window.deleteTransaction = function (id) {
   transactions = transactions.filter(t => t.id !== id)
   saveTransactions()
